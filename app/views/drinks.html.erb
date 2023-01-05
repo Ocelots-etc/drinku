@@ -1,0 +1,12 @@
+<h2> Welcome to Drinku!</h2>
+
+<h3>This is a list of our drinks:</h3>
+
+<% @drinks.each do |drink|%>
+<%= drink.name %><br>
+<% end %>
+
+
+<h3> Please <a href="/locations">Select locations</a> or <a href="/drinks">Select drinks</a> </h3>
+
+

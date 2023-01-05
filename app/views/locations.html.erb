@@ -1,0 +1,10 @@
+<h2> Welcome to Drinku!</h2>
+
+<h3>This is a list of our locations:</h3>
+<% @locations.each do |location|%>
+<%= location.name %><br>
+<% end %>
+
+
+<h3> Please <a href="/locations">Select locations</a> or <a href="/drinks">Select drinks</a> </h3>
+

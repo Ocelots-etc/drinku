@@ -1,6 +1,9 @@
 class DrinksController < ApplicationController
 
   def index
+    @drinks = Drink.all
+    render :"/drinks"
+    
   end
 
   def create
